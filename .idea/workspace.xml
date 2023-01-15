@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4860076a-828a-4708-aca5-c4b50101c80b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/banner-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/banner-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/bottle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/cat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/keks-background-dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/keks-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/keks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/whistle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +77,7 @@
       <workItem from="1666694796728" duration="16000" />
       <workItem from="1673171154026" duration="2735000" />
       <workItem from="1673363113193" duration="67000" />
-      <workItem from="1673763621850" duration="2390000" />
+      <workItem from="1673763621850" duration="3945000" />
     </task>
     <servers />
   </component>
@@ -106,5 +94,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

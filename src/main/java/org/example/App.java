@@ -9,11 +9,13 @@ package org.example;
 //  В качестве такого класса данных использовать класс Cat из модуля 3.
 
 
+import freemarker.template.TemplateException;
+
 import java.io.IOException;
 
 public class App
 {
-    public static void main( String[] args ) throws IOException {
+    public static void main( String[] args ) throws IOException, IncorrectCatWeightException, TemplateException {
         DynamicPage dynamicPage = new DynamicPage();
         dynamicPage.createPage("Cat");
     }
