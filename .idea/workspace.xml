@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4860076a-828a-4708-aca5-c4b50101c80b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/banner-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/banner-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/keks-background-dark.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/keks-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/keks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/whistle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cats.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/maxima-java-05",
+    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/maxima-java-05/src/main/resources/templates",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
@@ -56,6 +48,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05\src\main\resources\templates" />
       <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05" />
       <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05\src\main\java\org\example" />
       <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05\src\main\resources" />
@@ -87,7 +80,7 @@
       <workItem from="1666694796728" duration="16000" />
       <workItem from="1673171154026" duration="2735000" />
       <workItem from="1673363113193" duration="67000" />
-      <workItem from="1673763621850" duration="6381000" />
+      <workItem from="1673763621850" duration="8088000" />
     </task>
     <servers />
   </component>

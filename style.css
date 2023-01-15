@@ -66,17 +66,17 @@ h2 {
   background-position: center top;
 }
 
-.feature-kitten {
+.cat-weight {
   padding-top: 60px;
   background-image: url("img/bottle.svg");
 }
 
-.feature-cat {
+.cat-name {
   padding-top: 60px;
   background-image: url("img/cat.svg");
 }
 
-.feature-train {
+.cat-isAngry {
   padding-top: 60px;
   background-image: url("img/whistle.svg");
 }
@@ -90,4 +90,11 @@ h2 {
   display: flex;
   justify-content: space-between;
   color: #999999;
+}
+#footer-link-left, #footer-link-right {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+  text-decoration-line: none;
+  /*А вот потому что в задании id )))*/
 }
