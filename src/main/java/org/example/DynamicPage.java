@@ -17,7 +17,6 @@ public class DynamicPage {
 
         String pathToResources = "src/main/resources/templates";
         //String pathToResources = Objects.requireNonNull(App.class.getClassLoader().getResource("templates")).getPath();
-        System.out.println(pathToResources);
         FileWriter fileWriter = new FileWriter("cats.html",false);
 
         //Конфигурация FreeMarker
@@ -25,12 +24,15 @@ public class DynamicPage {
         configuration.setDirectoryForTemplateLoading(new File(pathToResources));
         configuration.setDefaultEncoding("UTF-8");
 
-        Map root = new HashMap();
-        root.put("title", "Наши Коты");
-
         //Создаем кота
         Cat catRad = new Cat("Рыжик", 7, false);
-        System.out.println(catRad.toString());
+
+        //Кладем кота в мап
+        Map root = new HashMap();
+        root.put("cat",catRad);
+
+        String catIsAngry = catRad.isAngry() ? "Подобреет найдя хозяина" : "Добрый кот";
+        root.put("catIsAngry", catIsAngry);
 
         Template template = configuration.getTemplate("index.html");
         template.process(root,fileWriter);
