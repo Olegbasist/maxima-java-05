@@ -9,10 +9,11 @@ package org.example;
 //  В качестве такого класса данных использовать класс Cat из модуля 3.
 
 
-public class App 
+import java.io.IOException;
+
+public class App
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws IOException {
         DynamicPage dynamicPage = new DynamicPage();
         dynamicPage.createPage("Cat");
     }

@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4860076a-828a-4708-aca5-c4b50101c80b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/banner-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/banner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/bottle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/cat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/keks-background-dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/keks-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/keks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/img/whistle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DynamicPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cats.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +51,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/maxima-java-05",
+    "last_opened_file_path": "C:/Users/Олег/Documents/GitHub/maxima-java-05/src/main/java/org/example",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05\src\main\java\org\example" />
+      <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Олег\Documents\GitHub\maxima-java-05\src\main\resources\templates" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Run App" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
@@ -66,7 +87,9 @@
       <workItem from="1666626602689" duration="25000" />
       <workItem from="1666626640758" duration="23000" />
       <workItem from="1666694796728" duration="16000" />
-      <workItem from="1673171154026" duration="1705000" />
+      <workItem from="1673171154026" duration="2735000" />
+      <workItem from="1673363113193" duration="67000" />
+      <workItem from="1673763621850" duration="2390000" />
     </task>
     <servers />
   </component>
