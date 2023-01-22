@@ -4,8 +4,8 @@
 
   <groupId>org.example</groupId>
   <artifactId>maxima-java-05</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
 
   <name>maxima-java-05</name>
   <url>http://maven.apache.org</url>
@@ -30,7 +30,8 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
-
-
   </dependencies>
+  <build>
+    <finalName>cat</finalName>
+  </build>
 </project>
