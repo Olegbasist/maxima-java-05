@@ -11,13 +11,28 @@ import java.io.PrintWriter;
 public class Servlet extends HttpServlet {
 
     public void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html; charset=UTF-8");
-        //response.setCharacterEncoding("UTF-8"); //Вариант?
 
+        String name = request.getParameter("name");
+        String weight = request.getParameter("weight");
+        String isAngry = request.getParameter("angry");
+
+
+        response.setContentType("text/html; charset=UTF-8");
         PrintWriter printWriter = response.getWriter();
-        printWriter.write("<p>Test</p>");
+        try {
+            printWriter.write("<p>Встречайте - " +name + "</p><p>" + catInfo(name,weight,name) + "</p>");
+        } catch (IncorrectCatWeightException e) {
+            throw new RuntimeException(e);
+        }
 
         printWriter.flush();
         printWriter.close();
+    }
+    private String catInfo (String name, String weight, String angry) throws IncorrectCatWeightException {
+        int intWeight = Integer.parseInt(weight);
+        boolean isAngry = Boolean.getBoolean(angry);
+        Cat cat = new Cat(name, intWeight,isAngry);
+
+        return cat.toString();
     }
 }

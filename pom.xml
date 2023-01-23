@@ -30,8 +30,29 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+    <dependency>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.2</version>
+    </dependency>
+
   </dependencies>
   <build>
-    <finalName>cat</finalName>
+    <finalName>cats</finalName>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version>
+            <configuration>
+              <failOnMissingWebXml>
+                false
+              </failOnMissingWebXml>
+            </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
   </build>
 </project>
