@@ -19,8 +19,11 @@ public class Servlet extends HttpServlet {
 
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter printWriter = response.getWriter();
-
-            printWriter.write("<p>Встречайте - " +name);
+        try {
+            printWriter.write("<p>Встречайте - " +name + "</p><p>" + catInfo(name,weight,name) + "</p>");
+        } catch (IncorrectCatWeightException e) {
+            throw new RuntimeException(e);
+        }
 
         printWriter.flush();
         printWriter.close();
